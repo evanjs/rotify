@@ -1,0 +1,17 @@
+[package]
+name = "rotify"
+version = "0.1.0"
+authors = ["Evan Stoll <evanjsx@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.38"
+clap = "2.33.3"
+dotenv = "0.15.0"
+env_logger = "0.8.2"
+envy = "0.4.2"
+rspotify = { git = "https://github.com/ramsayleung/rspotify" }
+serde = { version = "1.0.123", features = [ "derive" ] }
+tokio = { version = "1.1.1", features = [ "full" ] }
